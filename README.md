@@ -21,6 +21,6 @@ python main.py
 ## Requirements
 ``` bash
     Python 3.6+
-
-    No external dependencies
+    pip install Pillow matplotlib
+    
 ```
