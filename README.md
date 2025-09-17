@@ -12,3 +12,15 @@ A Python-based optimization system for hospital and ambulance positioning using 
 ```bash
 git clone https://github.com/sigonebyexample/Hospital-Ambulance-Optimization-System
 cd hospital-ambulance-optimization
+```
+## Usage
+```bash
+
+python main.py
+```
+## Requirements
+``` bash
+    Python 3.6+
+
+    No external dependencies
+```
