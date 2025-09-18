@@ -20,12 +20,37 @@ cd hospital-optimization
 ```
 ## Usage
 ```bash
-
-python main.py
+python src/main_graphical_optimization.py
 ```
 ## Requirements
 ``` bash
-    Python 3.6+
-    pip install Pillow matplotlib
+pip install -r src/requirements.txt
     
+```
+## Or use the module:
+``` bash
+#make python file and run this code 
+from src.graphical_hospital_optimization import GraphicalHospitalOptimization
+from src.graphical_hill_climbing import GraphicalHillClimbingOptimizer
+
+problem = GraphicalHospitalOptimization(
+    grid_width=12,
+    grid_height=12,
+    num_houses=15,
+    num_ambulances=3,
+    num_hospitals=2
+)
+
+optimizer = GraphicalHillClimbingOptimizer()
+result = optimizer.optimize(problem)
+```
+## Project Structure
+``` bash
+hospital-optimization/
+├── images/          # Image assets
+├── src/            # Source code
+├── results/        # Output images
+├── examples/       # Usage examples
+├── tests/          # Unit tests
+└── README.md       # This file
 ```
