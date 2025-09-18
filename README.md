@@ -1,17 +1,22 @@
-# Hospital Ambulance Optimization System
+# Hospital Optimization with Hill Climbing
 
-A Python-based optimization system for hospital and ambulance positioning using hill climbing algorithms.
+A graphical optimization system that uses hill climbing algorithm to optimally place hospitals and ambulances to minimize transportation costs.
 
 ## Features
-- Hospital and ambulance cost calculation
-- Space management with width and height constraints
-- Hill climbing optimization algorithm
-- Random restart functionality for better optimization
+
+- 🏥 Graphical visualization using OpenCV
+- 🚑 Real image display for houses, ambulances, and hospitals
+- 📊 Cost minimization for hospital and ambulance placement
+- 🔄 Hill climbing optimization algorithm
+- 💾 Image saving capabilities
+- 📈 Real-time progress visualization
 
 ## Installation
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/sigonebyexample/Hospital-Ambulance-Optimization-System
-cd hospital-ambulance-optimization
+git clone https://github.com/your-username/hospital-optimization.git
+cd hospital-optimization
 ```
 ## Usage
 ```bash
